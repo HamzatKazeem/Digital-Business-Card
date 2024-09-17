@@ -1,0 +1,47 @@
+body {
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card {
+width: 400px;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+text-align: center;
+color: #2b2839;
+background: #c4c6e7;
+
+border-bottom: 10px solid #253237;
+
+}
+
+.btw-margin{
+    margin-left: 5px;
+}
+
+.dtdln {
+    border:  1px dotted blue;
+
+}
+
+.photo-edge{
+ border-radius: 12px;
+}
+
+.bg-animate {
+
+    background: #c4c6e7;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {background-color:#c4c6e7;;}
+    to {background-color: #448fa3;}
+  }
