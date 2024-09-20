@@ -17,9 +17,8 @@ margin: 0 auto;
 text-align: center;
 color: #2b2839;
 background: #c4c6e7;
-
+text-shadow: -2px 2px 1px white;
 border-bottom: 10px solid #253237;
-
 }
 
 .btw-margin{
@@ -27,7 +26,7 @@ border-bottom: 10px solid #253237;
 }
 
 .dtdln {
-    border:  1px dotted blue;
+    border:  1px dotted #448fa3;
 
 }
 
